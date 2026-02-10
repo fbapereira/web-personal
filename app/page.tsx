@@ -18,13 +18,6 @@ export default function HomePage() {
           <FinalCta />
         </div>
       </main>
-      <footer className="footer" aria-label="Site footer">
-        <div className="page">
-          <div className="footer-inner">
-            <span>Minimal site. Maximum attention on your product.</span>
-          </div>
-        </div>
-      </footer>
     </>
   );
 }

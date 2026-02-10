@@ -1,6 +1,7 @@
 import { Reveal } from "./Reveal";
 
-const MAILTO = "mailto:you@domain.com?subject=Let%27s%20build%20something";
+const WHATSAPP_LINK =
+  "https://wa.me/35699713103?text=Hi%20Felipe%2C%20I%27d%20love%20to%20talk%20about%20a%20project.";
 
 export function Hero() {
   return (
@@ -17,7 +18,7 @@ export function Hero() {
           people who care about doing things properly.
         </p>
         <div className="hero-actions">
-          <a className="primary-button" href={MAILTO}>
+          <a className="primary-button" target="_blank" rel="noreferrer" href={WHATSAPP_LINK}>
             Send me your idea
           </a>
         </div>

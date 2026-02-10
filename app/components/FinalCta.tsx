@@ -30,34 +30,6 @@ export function FinalCta() {
             </a>
           </div>
         </div>
-        <div aria-label="Contact links">
-          <nav className="contact-links" aria-label="Profiles and contact">
-            <a
-              className="contact-link"
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noreferrer"
-            >
-              WhatsApp (+356 9971 3103)
-            </a>
-            <a
-              className="contact-link"
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
-            </a>
-            <a
-              className="contact-link"
-              href="https://github.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </nav>
-        </div>
       </div>
     </Reveal>
   );
